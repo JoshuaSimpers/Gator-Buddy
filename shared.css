@@ -136,7 +136,7 @@ button
     }
     header a
     {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     #gatorList
     {
@@ -145,23 +145,23 @@ button
     #gatorData
     {
         margin: 0 auto;
-        width: 17rem;
+        width: 22.61rem;
     }
     #gatorData button
     {
-        font-size: 1.5rem;
+        font-size: 1.995rem;
         margin: 0 auto;
     }
     #gatorValue
     {
-        width: 17rem;
-        height: 15.30075rem;
+        width: 22.61rem;
+        height: 20.35rem;
         margin: 0 auto 1rem auto;
         font-size: 1.5rem;
     }
     #output
     {
-        font-size: 8rem;
+        font-size: 10.64rem;
     }
     #UI
     {
