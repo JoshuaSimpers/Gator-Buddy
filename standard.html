@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G.A.T.O.R. BUDDY</title>
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../shared.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">G.A.T.O.R. BUDDY</a>
+        <h1>STANDARD</h1>
+    </header>
+    <main>
+        <div id="UI">
+            <div id="gatorData">
+                <ul id="gatorList">
+                    <li>
+                        <label for="skill">GUNNERY SKILL</label>
+                        <input id="skill" type="number" min="1" max="8" required size="1">
+                    </li>
+                    <li>
+                        <label for="attackerMovement">ATTACKER MOVEMENT TYPE</label>
+                        <select name="attack-move" id="attackerMovement">
+                            <option value="0">Stationary</option>
+                            <option value="1">Walked</option>
+                            <option value="2">Ran</option>
+                            <option value="3">Jumped</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="opponentMovement">NUMBER OF HEXES TARGET HAS MOVED</label>
+                        <input id="opponentMovement" type="number" min="0">
+                    </li>
+                    <h2>OTHER MODIFIERS</h2>
+                    <li>
+                        <label for="mechDamage">IS YOUR MECH DAMAGED?</label>
+                        <select name="" id="mechDamage">
+                            <option value="0">NO</option>
+                            <option value="2">SENSOR HIT</option>
+                            <option value="4">SHOULDER HIT</option>
+                            <option value="1">ARM ACTUATOR HIT</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="heatLevel">WHAT IS YOUR CURRENT HEAT LEVEL?</label>
+                        <input type="number" id="heatLevel" min="0">
+                    </li>
+                        <label for="secondaryTargets">DO YOU HAVE ANY SECONDARY TARGETS?</label>
+                        <select id="secondaryTargets">
+                            <option value="0">NO</option>
+                            <option value="1">YES</option>
+                        </select>
+                    <li>
+                        <label for="tileYN">IS THERE ANY KIND OF TERRAIN BETWEEN YOU AND YOUR TARGET?</label>
+                        <select id="tileYN">
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+                        </select>
+                    </li>
+                    <li id="terrainModifierLight" class="hidden">
+                        <label for="lightTerrainNum">NUMBER OF LIGHT WOOD TILES</label>
+                        <input id="lightTerrainNum" type="number" min="0" required size="1">
+                    </li>
+                    <li id="terrainModifierHeavy" class="hidden">
+                        <label for="heavyTerrainNum">NUMBER OF HEAVY WOOD TILES</label>
+                        <input id="heavyTerrainNum" type="number" min="0" required size="1">
+                    </li>
+                    <li>
+                        <label for="weaponRange">WHAT RANGE IS YOUR WEAPON FIRING AT?</label>
+                        <select id="weaponRange">
+                            <option value="0">Short</option>
+                            <option value="2">Medium</option>
+                            <option value="4">Long</option>
+                        </select>
+                    </li>
+                </ul>
+                <button id="calculate">CALCULATE</button>
+            </div>
+            <h2 id="gatorValue">G.A.T.O.R. VALUE: <span id="output"></span></h2>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
