@@ -128,24 +128,47 @@ button
     margin-top: 3rem;
 }
 
-@media (max-width: 768px)
+@media (max-width: 1279px)
 {
     body 
     {
         background-image: none;
     }
+    header a
+    {
+        font-size: 2rem;
+    }
+    #gatorList
+    {
+        margin: 0 auto;
+    }
     #gatorData
     {
+        margin: 0 auto;
+        width: 17rem;
+    }
+    #gatorData button
+    {
+        font-size: 1.5rem;
         margin: 0 auto;
     }
     #gatorValue
     {
-        width: 23rem;
-        margin: 0 auto 4rem auto;
+        width: 17rem;
+        height: 15.30075rem;
+        margin: 0 auto 1rem auto;
+        font-size: 1.5rem;
+    }
+    #output
+    {
+        font-size: 8rem;
     }
     #UI
     {
         flex-direction: column;
-        gap: 5rem;
+        gap: 1rem;
+        text-align: center;
+        margin: auto;
+        width: max-content;
     }
 }
