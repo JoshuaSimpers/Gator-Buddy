@@ -1,3 +1,14 @@
+body
+{
+    background-color: black;
+    font-family: "Doto", sans-serif;
+    background-image:url(./images/Mechwarrior-Wireframe-2.png);
+    background-repeat: no-repeat;
+    background-size: 80rem 62rem;
+    background-position: center top;
+    text-align: center;
+}
+
 main
 {
     display: flex;
@@ -10,6 +21,7 @@ main p
     font-size: 2rem;
     width: 75rem;
     margin: 2rem auto;
+    color: white;
 }
 
 main a
@@ -21,6 +33,16 @@ main a
     font-size: 2rem;
     background-color: black;
     text-align: center;
+}
+
+header a
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
 }
 
 h2{

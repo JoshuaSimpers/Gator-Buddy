@@ -146,10 +146,13 @@ button
     {
         margin: 0 auto;
         width: 51rem;
+        font-size: 3rem;
     }
     #gatorData button
     {
         font-size: 4.5rem;
+        width: 30rem;
+        height: 10rem;
         margin: 0 auto;
     }
     #gatorValue
@@ -170,5 +173,13 @@ button
         text-align: center;
         margin: auto;
         width: max-content;
+    }
+    select
+    {
+        font-size: 3rem;
+    }
+    input
+    {
+        font-size: 3rem;
     }
 }
