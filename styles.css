@@ -127,3 +127,25 @@ h2{
     gap: 30rem;
     margin-top: 3rem;
 }
+
+@media (max-width: 768px)
+{
+    body 
+    {
+        background-image: none;
+    }
+    #gatorData
+    {
+        margin: 0 auto;
+    }
+    #gatorValue
+    {
+        width: 23rem;
+        margin: 0 auto 4rem auto;
+    }
+    #UI
+    {
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
