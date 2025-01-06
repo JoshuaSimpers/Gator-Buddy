@@ -133,10 +133,27 @@ button
     body 
     {
         background-image: none;
+        font-weight: bold;
+    }
+    main
+    {
+        margin: 1rem;
+        text-align: center;
+    }
+    header
+    {
+        width: fit-content;
+        margin: auto;
     }
     header a
     {
-        font-size: 6.75rem;
+        font-size: 4.75rem;
+    }
+    header h1
+    {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
     }
     #gatorList
     {
@@ -145,20 +162,20 @@ button
     #gatorData
     {
         margin: 0 auto;
-        width: 51rem;
+        width: fit-content;
         font-size: 3rem;
     }
     #gatorData button
     {
         font-size: 4.5rem;
-        width: 30rem;
+        width: fit-content;
         height: 10rem;
         margin: 0 auto;
     }
     #gatorValue
     {
-        width: 51rem;
-        height: 45.75rem;
+        width: fit-content;
+        height: 47.75rem;
         margin: 0 auto 1rem auto;
         font-size: 3.375rem;
     }
@@ -172,7 +189,7 @@ button
         gap: 1rem;
         text-align: center;
         margin: auto;
-        width: max-content;
+        width: fit-content;
     }
     select
     {
