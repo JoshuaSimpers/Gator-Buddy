@@ -134,10 +134,11 @@ button
     {
         background-image: none;
         font-weight: bold;
+        align-items: center;
     }
     main
     {
-        margin: 1rem;
+        margin: 0 auto;
         text-align: center;
     }
     header
