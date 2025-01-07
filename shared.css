@@ -142,11 +142,12 @@ button
     }
     header
     {
-        width: fit-content;
+        width: min-content;
+        margin: 0 auto;
     }
     header a
     {
-        font-size: 4.75rem;
+        font-size: 4.25rem;
     }
     header h1
     {

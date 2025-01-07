@@ -75,15 +75,16 @@ h2{
     {
         font-size: 1.5rem;
         width: fit-content;
+        text-align: center;
     }
     header
     {
-        width: fit-content;
-        margin: 1rem auto 0 auto;
+        width: min-content;
+        margin: 0 auto;
     }
     header a
     {
-        font-size: 4.75rem;
+        font-size: 4.25rem;
     }
     header h1
     {
